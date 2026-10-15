@@ -61,6 +61,7 @@ enum ReleaseChangeAliases {
         switch feature {
         case .switcher: return ["window switcher", "app switcher", "switcher"]
         case .dockPreview: return ["dock preview", "dock previews"]
+        case .dockLocking: return ["dock locking", "lock dock", "lock dock to screen"]
         case .dockClick: return ["dock clicks", "dock click", "click the dock icon", "dock icon", "dock actions"]
         case .windowMaximizer: return ["maximize windows", "window maximizer", .exact("Maximize"),
             "green-button maximization", "green-button maximize"]

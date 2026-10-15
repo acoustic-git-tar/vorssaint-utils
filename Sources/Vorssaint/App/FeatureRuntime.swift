@@ -243,6 +243,7 @@ final class FeatureRuntime: ObservableObject {
         },
         .dockPreview: { DockPreviewService.shared.syncWithPreferences() },
         .dockClick: { DockClickService.shared.syncWithPreferences() },
+        .dockLocking: { DockLockService.shared.syncWithPreferences() },
         .windowMaximizer: { WindowMaximizer.shared.syncWithPreferences() },
         .windowLayout: {
             WindowUseTracker.shared.syncWithFeatures()

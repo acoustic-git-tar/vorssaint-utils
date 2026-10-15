@@ -48,6 +48,10 @@ struct DockSettings: View {
                     dockClickCard
                         .settingsSectionAnchor(.dockClick, cornerRadius: 16)
                 }
+                if AppFeature.dockLocking.isAvailable {
+                    DockLockingSettings()
+                        .settingsSectionAnchor(.dockLocking, cornerRadius: 16)
+                }
                 if AppFeature.spacesOrder.isAvailable {
                     spacesOrderCard
                         .settingsSectionAnchor(.spacesOrder, cornerRadius: 16)

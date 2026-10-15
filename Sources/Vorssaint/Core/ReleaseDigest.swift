@@ -196,7 +196,7 @@ enum WhatsNewInfo {
     /// apart. Frozen on purpose: a feature added later is new to anyone who
     /// updates from a version that never recorded what it knew.
     static let featuresBeforeTracking: Set<String> = [
-        "switcher", "dockPreview", "dockClick", "windowMaximizer", "windowLayout", "autoQuit", "spacesOrder",
+        "switcher", "dockPreview", "dockClick", "dockLocking", "windowMaximizer", "windowLayout", "autoQuit", "spacesOrder",
         "scrollInverter", "scrollHorizontal", "focusFollowsMouse", "smoothScroll", "linearScroll",
         "mouseAcceleration", "mouseNavigation", "mouseButtonShortcuts", "middleClick", "mouseClickDebounce",
         "keyboardDebounce", "textSnippets", "superKey", "quitWindowProtection",

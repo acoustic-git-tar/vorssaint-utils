@@ -91,7 +91,7 @@ extension AppFeature {
         switch self {
         case .scrollInverter, .scrollHorizontal, .focusFollowsMouse, .smoothScroll, .linearScroll, .windowMaximizer, .middleClick,
              .mouseNavigation, .mouseButtonShortcuts, .mouseClickDebounce,
-             .dockPreview, .dockClick, .shelf:
+             .dockPreview, .dockClick, .dockLocking, .shelf:
             return .mouse
         case .keyboardDebounce, .finderCutPaste, .finderRename, .quitWindowProtection, .musicBlock:
             return .keyboard

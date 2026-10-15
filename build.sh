@@ -316,6 +316,8 @@ if (( TEST )); then
         Sources/Vorssaint/Services/Notch/NotchPlaybackSource.swift
         Sources/Vorssaint/Services/Notch/NotchPlaybackCommand.swift
         Sources/Vorssaint/Services/Notch/NotchMusicCommandWriter.swift
+        Sources/Vorssaint/Core/DockLockStrings.swift
+        Sources/Vorssaint/Services/DockLocking/DockLockGeometry.swift
         Sources/Vorssaint/Core/FeatureCatalog.swift
         Sources/Vorssaint/Core/FeaturePresets.swift
         Sources/Vorssaint/Core/FeatureHubStrings.swift

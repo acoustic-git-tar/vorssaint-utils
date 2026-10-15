@@ -129,6 +129,9 @@ enum DefaultsKey {
     static let dockPreviewOpenDelay = "dockPreviewOpenDelay" // milliseconds the cursor must rest on a Dock icon before its panel opens (DockPreviewSupport.openDelayMillisecondsRange)
     static let dockPreviewQuitAppOnClose = "dockPreviewQuitAppOnClose" // the preview card's close button quits the owning app instead of closing one window
     static let dockPreviewOrderByCreation = "dockPreviewOrderByCreation" // order Dock Preview windows by ascending window ID (creation proxy) instead of last use
+    static let dockLockingEnabled = "dockLockingEnabled"
+    static let lockedDockScreenIdentifier = "lockedDockScreenIdentifier"
+    static let dockLockOverrideModifier = "dockLockOverrideModifier"
     static let dockClickMinimize = "dockClickMinimize"    // click the active app's Dock icon to minimize its windows
     static let dockClickHide = "dockClickHide"            // click the active app's Dock icon to hide the app
     static let dockClickCycleWindows = "dockClickCycleWindows" // click the active app's Dock icon to cycle through its windows
@@ -1272,6 +1275,9 @@ enum Defaults {
         DefaultsKey.dockPreviewOpenDelay: DockPreviewSupport.defaultOpenDelayMilliseconds,
         DefaultsKey.dockPreviewQuitAppOnClose: false,
         DefaultsKey.dockPreviewOrderByCreation: false,
+        DefaultsKey.dockLockingEnabled: false,
+        DefaultsKey.lockedDockScreenIdentifier: "system-main-display",
+        DefaultsKey.dockLockOverrideModifier: "option",
         DefaultsKey.dockClickMinimize: false,
         DefaultsKey.dockClickHide: false,
         DefaultsKey.dockClickCycleWindows: false,
