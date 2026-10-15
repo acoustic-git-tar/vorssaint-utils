@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2024 ejbills (DockDoor)
 // Copyright (C) 2026 Vorssaint
-// Dock locking behavior adapted from DockDoor (https://github.com/ejbills/DockDoor).
+// Adapted from DockDoor's DockLocker.swift (https://github.com/ejbills/DockDoor).
+// Modified 2026-10-15: integrated Vorssaint preferences, lifecycle and cancellable relocation.
 
 import AppKit
 import ApplicationServices

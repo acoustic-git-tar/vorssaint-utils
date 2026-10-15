@@ -1,5 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-// Geometry adapted from DockDoor (https://github.com/ejbills/DockDoor).
+// Copyright (C) 2024 ejbills (DockDoor)
+// Copyright (C) 2026 Vorssaint
+// Adapted from DockDoor's DockLocker.swift (https://github.com/ejbills/DockDoor).
+// Modified 2026-10-15: scoped geometry types and added pointer constraints for Vorssaint.
 
 import CoreGraphics
 
