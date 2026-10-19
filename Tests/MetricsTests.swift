@@ -29,6 +29,7 @@ struct MetricsTests {
             ("pointer-input", {
                 PointerOnDisplayContract.run(suite)
                 PointerInputFeatureTests.run(suite)
+                SmoothScrollRoutingTests.run(suite)
                 KeyboardDebounceTapTests.run(suite)
                 PointerDisplayLookupContract.run(suite)
                 SuperKeyTapContract.run(suite)
@@ -60,6 +61,7 @@ struct MetricsTests {
                 AirPlayAvailabilityContract.run(suite)
                 AirPlayConcurrentLanesContract.run(suite)
                 AirPlayBacklogContract.run(suite)
+                AirPlayIdleContract.run(suite)
                 MixerInputVolumeContract.run(suite)
                 MixerPercentKeyTests.run(suite)
                 MixerFeatureTests.run(suite)
@@ -113,6 +115,7 @@ struct MetricsTests {
                 PlainTextLineMoverTests.run(suite)
                 NotchVolumeKeyTests.run(suite)
                 NotchSettingsTabRowTests.run(suite)
+                NotchPresentationProbeArgumentTests.run(suite)
             }),
             ("switcher-model", { SwitcherModelFeatureTests.run(suite) }),
             ("agents", { NotchAgentTests.run(suite) }),
@@ -123,6 +126,7 @@ struct MetricsTests {
             }),
             ("utilities", {
                 UtilitiesFeatureTests.run(suite)
+                TextSnippetExpansionTests.run(suite)
                 QuickTogglesAlertTests.run(suite)
                 PortManagerRefreshTests.run(suite)
             }),
